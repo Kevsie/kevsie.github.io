@@ -71,7 +71,8 @@ Promise.all([
             title: "Year",
             intervalType: "year",
             labelAutoFit: true,
-            maximum: new Date(2012,0), // Maximum x-value
+            labelAngle: 0,
+            // maximum: new Date(2012,0), // Maximum x-value
             stripLines: [       // Vertical lines with specific information
                 {   
                     label: "First Worldwar",
