@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script_sheet.js"></script>
+    <link rel="stylesheet" href="style_sheetv2.css">
+</head>
+<body>
+
+<div class="container">
+
+<div id="headerRow">
+    <textarea id="input_txt" rows="4" cols="100">In-flight identification of an aircraft’s dynamic model can benefit adaptive control
+        schemes by providing estimates of aerodynamic stability derivatives in real time.
+        This information is useful when the dynamic model changes severely in flight such
+        as when faults and failures occur. Moreover a continuously updating model of the
+        aircraft dynamics can be used to monitor the performance of onboard controllers.
+        Flight test data was collected using a sum of sines input implemented in closed loop
+        on a twin engine, fixed wing, Unmanned Aerial Vehicle. This data has been used to
+        estimate a complete six degree of freedom aircraft linear model using the recursive
+        Fourier Transform Regression method in frequency domain. The methods
+        presented in this paper have been successfully validated using computer simulation
+        and real flight data. This paper shows the feasibility of using the frequency domain
+        Fourier Transform Regression method for real time parameter identification.</textarea>
+    <button onclick="getData()">Get data</button>
+</div>
+
+
+<div id="txtCol">
+    <div id="newTxt">
+    </div>
+</div>
+
+<div id="NwRow">
+    <svg width="800" height="800"></svg>
+</div>
+
+<div id="rowImg">
+    <img id="imgBox"/>
+</div>
+
+<div id="rowTxt">
+
+</div>
+
+
+</div>
+</body>
+</html>
