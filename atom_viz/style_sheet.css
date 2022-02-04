@@ -1,0 +1,9 @@
+body {
+    background-color: #787878;
+}
+
+#bubbles {
+    display: block;
+    margin: auto;
+    z-index: -1;
+}
