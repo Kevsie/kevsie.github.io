@@ -67,6 +67,8 @@ Promise.all([
         title :{
             text: "Women at the TU Delft",
         },
+        exportEnabled: true,
+        exportFileName: "FemMenGraph",
         axisX:{
             title: "Year",
             intervalType: "year",
@@ -168,6 +170,5 @@ Promise.all([
 
 
     chart.render();         // Render data
-
 
 });
